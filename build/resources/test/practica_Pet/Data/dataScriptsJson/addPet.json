@@ -1,0 +1,18 @@
+{
+  "id": 10,
+  "category": {
+    "id": 0,
+    "name": "feline"
+  },
+  "name": "moncho",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}

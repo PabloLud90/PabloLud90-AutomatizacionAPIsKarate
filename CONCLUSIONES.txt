@@ -1,0 +1,14 @@
+#############  Conclusiones  ###############
+
+Karate permitió realizar pruebas de forma sencilla y legible con la utilización del lenguaje Gherkin facilitando
+la creacion de pruebas al momento de testear una aplicacion.
+
+Dado que Karate al ser un framework orientado a pruebas de APIs soporta facilmente la integracion de archivos
+en formato JSON para realizar las validaciones de los datos y verificar los resultadis de manera sencilla,
+
+En conclusión general se verificó que Karate es una excelente opción para realizar pruebas de API, no es complicada
+su configuración, no depende de muchas herramientas adicionales y se puede integrar facilmente con Gradle.
+Además genera informes claros y detallados fáciles de interpretar para comprensión de los resultados,
+tanto para comprobar donde se origino un error como para verificar que los escenarios de pruebas no presenten
+errores en la ejecución.
+

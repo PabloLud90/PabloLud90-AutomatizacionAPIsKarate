@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+      posthog.register_once({
+        karate_version:"1.2.0.RC5"
+      });
+      posthog.capture('report_feature');
+    </script>    
+    <title>src.test.java.practica_Pet.Features.practicaApiSwaggerPet</title>
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">3</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2024-11-24 09:10:11 p. m.</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1.1:18]"><span>[1.1:18]</span> <span>Add Pet</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2.1:28]"><span>[2.1:28]</span> <span>Search Pet &lt;id&gt;</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3.1:39]"><span>[3.1:39]</span> <span>Update Pet</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[4.1:67]"><span>[4.1:67]</span> <span>Search Pet for status</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/practica_Pet/Features/practicaApiSwaggerPet.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Post user https://petstore.swagger.io</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:18]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">Exercise1</a><a class="badge badge-primary" href="karate-tags.html">ApiSwaggerPet</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:18]</span>
+                <span class="scenario-name">Add Pet</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2640</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:18]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://petstore.swagger.io&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">201</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>path &quot;/v2/pet&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>request read(&#39;../../practica_Pet/Data/dataScriptsJson/addPet.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">278</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2071</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.11">21:10:09.128 request:
+1 &gt; POST https://petstore.swagger.io/v2/pet
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 139
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:10,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;feline&quot;},&quot;name&quot;:&quot;moncho&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
+
+21:10:10.483 response time in milliseconds: 1353
+1 &lt; 200
+1 &lt; Date: Mon, 25 Nov 2024 02:10:10 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:10,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;feline&quot;},&quot;name&quot;:&quot;moncho&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;available&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">21</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.13">21:10:10.504 [print] {
+  &quot;id&quot;: 10,
+  &quot;category&quot;: {
+    &quot;id&quot;: 0,
+    &quot;name&quot;: &quot;feline&quot;
+  },
+  &quot;name&quot;: &quot;moncho&quot;,
+  &quot;photoUrls&quot;: [
+    &quot;string&quot;
+  ],
+  &quot;tags&quot;: [
+    {
+      &quot;id&quot;: 0,
+      &quot;name&quot;: &quot;string&quot;
+    }
+  ],
+  &quot;status&quot;: &quot;available&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response contains {&quot;status&quot;:&quot;available&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">68</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2.1:28]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">Exercise1</a><a class="badge badge-primary" href="karate-tags.html">ApiSwaggerPet</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2.1:28]</span>
+                <span class="scenario-name">Search Pet &lt;id&gt;</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>2</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2.1:28]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2.1:28]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://petstore.swagger.io&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.1:28]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>path &quot;/v2/pet&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.28">
+      <div class="step-ref failed">28</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>dynamic expression evaluation failed: read(&#39;../../practica_Pet/Data/datos/dataGeneral.csv&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.28">js failed:
+&gt;&gt;&gt;&gt;
+01: read(&#39;../../practica_Pet/Data/datos/dataGeneral.csv&#39;)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: /Users/pabloludena/Practicas E2E/PracticaAPI_Pablo/src/test/java/practica_Pet/Features/../../practica_Pet/Data/datos/dataGeneral.csv (No such file or directory)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:71)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- &lt;js&gt;.:program(Unnamed:1)
+
+com.intuit.karate.KarateException: js failed:
+&gt;&gt;&gt;&gt;
+01: read(&#39;../../practica_Pet/Data/datos/dataGeneral.csv&#39;)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: /Users/pabloludena/Practicas E2E/PracticaAPI_Pablo/src/test/java/practica_Pet/Features/../../practica_Pet/Data/datos/dataGeneral.csv (No such file or directory)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:71)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- &lt;js&gt;.:program(Unnamed:1)
+
+	at com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:233)
+	at com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1342)
+	at com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2369)
+	at com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2288)
+	at com.intuit.karate.core.ScenarioIterator.tryAdvance(ScenarioIterator.java:107)
+	at com.intuit.karate.core.ScenarioIterator.tryAdvance(ScenarioIterator.java:88)
+	at java.base/java.util.Spliterator.forEachRemaining(Spliterator.java:332)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.Spliterators$1Adapter.forEachRemaining(Spliterators.java:706)
+	at com.intuit.karate.core.FeatureRuntime.run(FeatureRuntime.java:165)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intuit.karate.core.SyncExecutorService.execute(SyncExecutorService.java:70)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+	at com.intuit.karate.Suite.run(Suite.java:235)
+	at com.intuit.karate.Runner$Builder.parallel(Runner.java:575)
+	at com.intuit.karate.cli.IdeMain.main(IdeMain.java:60)
+	at cucumber.api.cli.Main.main(Main.java:34)
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3.1:39]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">Exercise1</a><a class="badge badge-primary" href="karate-tags.html">ApiSwaggerPet</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3.1:39]</span>
+                <span class="scenario-name">Update Pet</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>391</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3.1:39]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3.1:39]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://petstore.swagger.io&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3.1:39]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>path &quot;/v2/pet&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>request read(&#39;../../practica_Pet/Data/dataScriptsJson/updatePet.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>method PUT</span>
+      </div>
+    </div>
+    <div class="time-cell passed">383</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.33">21:10:10.677 request:
+1 &gt; PUT https://petstore.swagger.io/v2/pet
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 132
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;id&quot;:10,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;pupi&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;}
+
+21:10:11.057 response time in milliseconds: 380
+1 &lt; 200
+1 &lt; Date: Mon, 25 Nov 2024 02:10:11 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;id&quot;:10,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;pupi&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.35">21:10:11.059 [print] {
+  &quot;id&quot;: 10,
+  &quot;category&quot;: {
+    &quot;id&quot;: 0,
+    &quot;name&quot;: &quot;string&quot;
+  },
+  &quot;name&quot;: &quot;pupi&quot;,
+  &quot;photoUrls&quot;: [
+    &quot;string&quot;
+  ],
+  &quot;tags&quot;: [
+    {
+      &quot;id&quot;: 0,
+      &quot;name&quot;: &quot;string&quot;
+    }
+  ],
+  &quot;status&quot;: &quot;sold&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response contains {&quot;status&quot;:&quot;sold&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4.1:67]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">Exercise1</a><a class="badge badge-primary" href="karate-tags.html">ApiSwaggerPet</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4.1:67]</span>
+                <span class="scenario-name">Search Pet for status</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>407</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4.1:67]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4.1:67]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://petstore.swagger.io&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.1:67]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>path &quot;/v2/pet&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.57">
+      <div class="step-ref passed">57</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>path &#39;/findByStatus&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.58">
+      <div class="step-ref passed">58</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param status = &#39;sold&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.59">
+      <div class="step-ref passed">59</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">397</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.59">21:10:11.077 request:
+1 &gt; GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.3)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+21:10:11.470 response time in milliseconds: 392
+1 &lt; 200
+1 &lt; Date: Mon, 25 Nov 2024 02:10:11 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+[{&quot;id&quot;:23688827,&quot;category&quot;:{&quot;id&quot;:38199557,&quot;name&quot;:&quot;officia in&quot;},&quot;name&quot;:&quot;doggie&quot;,&quot;photoUrls&quot;:[&quot;culpa aliqua do Ut&quot;,&quot;pariatur non qui&quot;],&quot;tags&quot;:[{&quot;id&quot;:-59409203,&quot;name&quot;:&quot;irure id dolor D&quot;},{&quot;id&quot;:-8983193,&quot;name&quot;:&quot;amet Duis&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:17,&quot;name&quot;:&quot;Special_char_owner_!@#$^&amp;()`.testing&quot;,&quot;photoUrls&quot;:[&quot;https://petstore3.swagger.io/resources/photos/623389095.jpg&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:19467,&quot;name&quot;:&quot;見響见响仮仏!$%&amp;()*+,-ƄƅƆḞḟṀʶʷʸăĄą&quot;,&quot;photoUrls&quot;:[&quot;https://petstore3.swagger.io/resources/photos/623389095.jpg&quot;],&quot;tags&quot;:[],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:857494797,&quot;category&quot;:{&quot;id&quot;:-29245128,&quot;name&quot;:&quot;incididunt&quot;},&quot;name&quot;:&quot;executing_from_test&quot;,&quot;photoUrls&quot;:[&quot;dolore Excepteur est&quot;,&quot;consequat in labore&quot;],&quot;tags&quot;:[{&quot;id&quot;:-55902183,&quot;name&quot;:&quot;Lorem laboris nulla&quot;},{&quot;id&quot;:67424482,&quot;name&quot;:&quot;incididunt ipsum eiusmod&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:13,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;cats&quot;},&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;},{&quot;id&quot;:10,&quot;category&quot;:{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;},&quot;name&quot;:&quot;pupi&quot;,&quot;photoUrls&quot;:[&quot;string&quot;],&quot;tags&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;string&quot;}],&quot;status&quot;:&quot;sold&quot;}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.60">
+      <div class="step-ref passed">60</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.61">
+      <div class="step-ref passed">61</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.61">21:10:11.474 [print] [
+  {
+    &quot;id&quot;: 23688827,
+    &quot;category&quot;: {
+      &quot;id&quot;: 38199557,
+      &quot;name&quot;: &quot;officia in&quot;
+    },
+    &quot;name&quot;: &quot;doggie&quot;,
+    &quot;photoUrls&quot;: [
+      &quot;culpa aliqua do Ut&quot;,
+      &quot;pariatur non qui&quot;
+    ],
+    &quot;tags&quot;: [
+      {
+        &quot;id&quot;: -59409203,
+        &quot;name&quot;: &quot;irure id dolor D&quot;
+      },
+      {
+        &quot;id&quot;: -8983193,
+        &quot;name&quot;: &quot;amet Duis&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;sold&quot;
+  },
+  {
+    &quot;id&quot;: 17,
+    &quot;name&quot;: &quot;Special_char_owner_!@#$^&amp;()`.testing&quot;,
+    &quot;photoUrls&quot;: [
+      &quot;https://petstore3.swagger.io/resources/photos/623389095.jpg&quot;
+    ],
+    &quot;tags&quot;: [
+    ],
+    &quot;status&quot;: &quot;sold&quot;
+  },
+  {
+    &quot;id&quot;: 19467,
+    &quot;name&quot;: &quot;見響见响仮仏!$%&amp;()*+,-ƄƅƆḞḟṀʶʷʸăĄą&quot;,
+    &quot;photoUrls&quot;: [
+      &quot;https://petstore3.swagger.io/resources/photos/623389095.jpg&quot;
+    ],
+    &quot;tags&quot;: [
+    ],
+    &quot;status&quot;: &quot;sold&quot;
+  },
+  {
+    &quot;id&quot;: 857494797,
+    &quot;category&quot;: {
+      &quot;id&quot;: -29245128,
+      &quot;name&quot;: &quot;incididunt&quot;
+    },
+    &quot;name&quot;: &quot;executing_from_test&quot;,
+    &quot;photoUrls&quot;: [
+      &quot;dolore Excepteur est&quot;,
+      &quot;consequat in labore&quot;
+    ],
+    &quot;tags&quot;: [
+      {
+        &quot;id&quot;: -55902183,
+        &quot;name&quot;: &quot;Lorem laboris nulla&quot;
+      },
+      {
+        &quot;id&quot;: 67424482,
+        &quot;name&quot;: &quot;incididunt ipsum eiusmod&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;sold&quot;
+  },
+  {
+    &quot;id&quot;: 13,
+    &quot;category&quot;: {
+      &quot;id&quot;: 0,
+      &quot;name&quot;: &quot;cats&quot;
+    },
+    &quot;photoUrls&quot;: [
+      &quot;string&quot;
+    ],
+    &quot;tags&quot;: [
+      {
+        &quot;id&quot;: 0,
+        &quot;name&quot;: &quot;string&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;sold&quot;
+  },
+  {
+    &quot;id&quot;: 10,
+    &quot;category&quot;: {
+      &quot;id&quot;: 0,
+      &quot;name&quot;: &quot;string&quot;
+    },
+    &quot;name&quot;: &quot;pupi&quot;,
+    &quot;photoUrls&quot;: [
+      &quot;string&quot;
+    ],
+    &quot;tags&quot;: [
+      {
+        &quot;id&quot;: 0,
+        &quot;name&quot;: &quot;string&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;sold&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Extraer los valores de &quot;name&quot; de todos los elementos en la respuesta</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="1.63">
+      <div class="step-ref passed">63</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match response != []</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.64">
+      <div class="step-ref passed">64</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response[*].name contains &#39;pupi&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
